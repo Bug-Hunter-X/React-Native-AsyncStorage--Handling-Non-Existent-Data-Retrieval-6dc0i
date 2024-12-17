@@ -1,0 +1,1 @@
+This React Native bug occurs when using AsyncStorage to store and retrieve data.  The issue arises when attempting to retrieve data that doesn't exist. Instead of returning `null` or an empty value, it throws an error, crashing the app. This is especially problematic because typical error handling mechanisms may not catch this specific type of AsyncStorage error.
